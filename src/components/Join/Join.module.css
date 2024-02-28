@@ -1,0 +1,46 @@
+@import "../../vars.css";
+
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-text);
+    
+}
+
+.join-quiz-container {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(25, 55, 109, 0.2) 0%, rgba(25, 55, 109, 1) 100%);
+    padding: 24px 33px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  
+  .join-quiz-container input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+  }
+  
+  .join-quiz-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .join-quiz-container button:hover {
+    background-color: var(--color-dark);
+  }
+  

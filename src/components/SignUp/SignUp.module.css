@@ -1,0 +1,153 @@
+@import "../../vars.css";
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-text);
+      
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: auto;
+    width: 600px;
+    margin-top: 30px;
+    background: var(--color-bg); 
+    padding-bottom: 30px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text {
+    color: var(--color-text); 
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline {
+    width: 61px;
+    height: 6px;
+    background: var(--color-primary); 
+    border-radius: 9px;
+}
+
+.inputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: var(--color-secondary); 
+    border-radius: 6px;
+}
+
+.input img{
+    margin: 0px 30px;
+}
+
+.input input{
+    height: 50px;
+    width: 400px;
+    background: var(--color-bg); 
+    border: none;
+    outline: none;
+    color: var(--color-text); 
+    font-size: 19px;
+}
+
+.forgot-password{
+    padding-left: 62px;
+    margin-top: 27px;
+    color: var(--color-text); 
+    font-size: 18px;
+}
+
+.forgot-password span{
+    color: var(--color-primary); 
+    cursor: pointer;
+}
+
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 59px;
+    color: var(--color-text); 
+    background: var(--color-primary); 
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: var(--color-primary);
+    color: var(--color-dark);
+    width: 150px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.changePassword {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.changePassword input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+  
+.changePassword button {
+    width: 100%;
+    height: 40px;
+    background-color: var(--color-primary);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+.changePassword button:hover {
+    background-color: var(--color-dark);
+}
+  
+
+
+  

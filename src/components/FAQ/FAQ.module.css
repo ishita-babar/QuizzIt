@@ -1,0 +1,84 @@
+@import "../../vars.css";
+
+.container {
+    padding: 20px;
+    color: var(--color-text);
+}
+  
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-text);
+    margin-bottom: 20px;
+}
+  
+.faq {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--color-primary);
+}
+  
+.faqItem {
+    margin-bottom: 30px;
+}
+  
+.questionContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+  
+.question {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+  
+.arrow {
+    font-size: 24px;
+}
+  
+.answer {
+    font-size: 18px;
+    margin-left: 20px;
+}
+  
+.footer {
+    background-color: var(--color-dark);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+  
+.footerLeft img {
+    height: 100px; 
+}
+  
+.footerRight {
+    display: flex;
+    gap: 20px;
+}
+  
+.footerRight div {
+    flex: 1;
+}
+  
+.footerRight h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+  
+.footerRight p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+  
+
+  
